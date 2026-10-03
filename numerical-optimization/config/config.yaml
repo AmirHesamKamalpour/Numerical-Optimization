@@ -1,0 +1,30 @@
+rosenbrock:
+  a: 1.0
+  b: 100.0
+  dimension: 4
+  x0: [0.0, 0.0, 0.0, 0.0]
+  tol: 1.0e-6
+  max_iter: 50000
+
+line_search:
+  alpha_init: 1.0
+  beta: 0.5
+  sigma: 0.1
+
+bfgs:
+  max_iter: 40000
+
+exponential:
+  x0: 6.0
+  tol: 1.0e-6
+  max_iter: 1000
+
+cubic_interpolation:
+  a: 0.0
+  b: 6.0
+  tol: 1.0e-10
+  max_iter: 50
+
+alpha0_candidates:
+  steepest_descent: [0.1, 0.5, 1.0, 2.0, 10.0]
+  newton: [0.1, 0.5, 1.0, 2.0, 5.0]
