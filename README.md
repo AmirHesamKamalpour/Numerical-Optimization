@@ -8,15 +8,15 @@ A small, reproducible Python project for two numerical-optimization exercises. T
 
 The objective is
 
-$$
+```math
 f(x)=\sum_{i=1}^{n-1}\left[b\left(x_{i+1}-x_i^2\right)^2 + (a-x_i)^2\right],
-$$
+```
 
 with the homework defaults $a=1$ and $b=100$. For these parameters, the minimizer is
 
-$$
+```math
 x^*=(1,\ldots,1)^T, \qquad f(x^*)=0.
-$$
+```
 
 The project includes:
 
@@ -31,23 +31,23 @@ The project includes:
 
 The second objective is
 
-$$
+```math
 f_2(x)=e^{x-3}-\frac{x}{2}-2,
-$$
+```
 
 with
 
-$$
+```math
 f_2'(x)=e^{x-3}-\frac12,
 \qquad
 f_2''(x)=e^{x-3}.
-$$
+```
 
 Setting $f_2'(x)=0$ gives the analytical minimizer
 
-$$
+```math
 x^*=3-\ln 2 \approx 2.30685281944.
-$$
+```
 
 The project includes Newton's method with Armijo backtracking and the cubic-interpolation minimization routine from the notebook.
 
@@ -107,9 +107,9 @@ With the default settings, the Barzilai–Borwein trial-step variant converges i
 
 For the exponential objective starting from $x_0=6$, Newton's method with $\alpha_0=1$ converges in 7 iterations to approximately
 
-$$
+```math
 x^*=2.3068536485, \qquad f_2(x^*)=-2.6534264097.
-$$
+```
 
 The Newton $\alpha_0$ sweep gives:
 
