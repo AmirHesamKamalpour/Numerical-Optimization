@@ -1,6 +1,6 @@
 # Numerical Optimization Homework
 
-A small, reproducible Python project for two numerical-optimization exercises. The original notebook has been refactored into separate objective functions, optimization algorithms, experiment scripts, configuration, plotting helpers, and derivative tests.
+A small, reproducible Python project for two numerical-optimization exercises.
 
 ## What is implemented
 
